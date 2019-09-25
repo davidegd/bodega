@@ -18,7 +18,7 @@ export const mainListItems = (
   <div>
 
     {localStorage.getItem("loggedAsUser") ? 
-    ((<Link to="Logout" button style={{ textDecoration: 'none', color: 'inherit'}}> 
+    ((<Link to="bodega" button style={{ textDecoration: 'none', color: 'inherit'}}> 
       <ListItem button>
       <ListItemIcon>
         <AssignmentIcon />

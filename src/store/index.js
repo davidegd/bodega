@@ -21,7 +21,6 @@ const initialState = {
   ordersCopy: [],
   order: {},
     openProductList: false,
-    text: 'hola',
     products: [],
     count: 0,
 };
@@ -79,9 +78,6 @@ function ordersCopyReducer(state = initialState, action) {
       return state;
   }
 }
-
-//let mainEnhancer = compose(persistState('reducer', 'ordersCopy'));
-
 
 /* mock of realtime action */
 let timerId = null;

@@ -170,7 +170,7 @@ const theme = createMuiTheme({
           </Typography> 
           <Tooltip title="Pedidos Entrantes">        
           <IconButton color="inherit">
-            <Badge badgeContent={ordersCopy.length-1} color="secondary">
+            <Badge badgeContent={ordersCopy.length} color="secondary">
               <NotificationsIcon />
             </Badge>
           </IconButton>

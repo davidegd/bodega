@@ -167,7 +167,7 @@ function Dashboard(props) {
 						</Typography>
 						<Tooltip title="Pedidos Entrantes">
 							<IconButton color="inherit">
-								<Badge badgeContent={props.orders.length - 1} color="secondary">
+								<Badge badgeContent={props.ordersCopy.length} color="secondary">
 									<NotificationsIcon />
 								</Badge>
 							</IconButton>
@@ -208,6 +208,7 @@ function Dashboard(props) {
 }
 
 const mapStateToProps = state => ({
-	orders: state.orders,
+	orders: state.orders,	
+    ordersCopy: state.reducer.ordersCopy 
 });
 export default connect(mapStateToProps)(Dashboard);
