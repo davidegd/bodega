@@ -1,0 +1,39 @@
+.root {
+    background-color: white;
+  }
+  .logo{
+      width: 6em;
+      height: auto;
+      margin: 0 auto;
+  }
+ 
+  .image {
+    /* background-image: url('https://source.unsplash.com/random'); */
+    background-image: url('../images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .paper {
+    margin: 13em 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 0 1em 0;
+  }
+  .avatar {
+    margin: 2em;
+    background-color: white;
+  };
+  .form {
+    width: 100%; 
+    margin-top:2em;
+  }
+  .submit {
+    margin: 2em;
+    background-color: #ff7028 !important;
+    color: white !important;
+  }
