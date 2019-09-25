@@ -13,7 +13,7 @@
 * Clonar repositorio:
 
   ``` bash
-  $ git clone https://github.com/davidegd/bodega_cachubana
+  $ git clone https://github.com/davidegd/bodega.git
   ```
 * instalar dependencias
   ``` bash
